@@ -49,8 +49,10 @@ class NewVisitorTest(unittest.TestCase):
         # Put the name of your image here in place of homebrew.png
         # In general this is how we check for images on a page.
 
+        # The user sees a image of bridge.
+
         m=self.browser.find_element_by_tag_name('img')
-        self.assertIn('homebrew.png',m.get_attribute('src'))
+        self.assertIn('connection.jpg',m.get_attribute('src'))
 
         # We check here for the title of your home page.
         # uncomment the next lines and change the text when you set your title.

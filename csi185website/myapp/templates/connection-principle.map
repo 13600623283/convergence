@@ -1,0 +1,10 @@
+<img src="/statics/connection.jpg" width="600" height="450" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:apple -->
+<area shape="poly" coords="138,396,370,257,450,397" href="principle.html" />
+</map>
