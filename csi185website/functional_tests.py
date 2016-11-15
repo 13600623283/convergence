@@ -61,23 +61,11 @@ class NewVisitorTest(unittest.TestCase):
         h=self.browser.find_element_by_css_selector('h1')
         self.assertIn("Convergence of Emotionalism and Rationalism",h.text)
 
-        # There is an area specified around the computer keyboard.
-        # the 'id' of this area is 'keyboard'
-
-        # this is how we find that area.
-        a=self.browser.find_element_by_id('keyboard')
-
-        # this is how we click on it.
+        a=self.browser.find_element_by_id("principle")
         a.click()
 
-        # after clicking on it, we should see the next page.
-        e=self.browser.find_element_by_css_selector("h1")
-        self.assertIn('Keyboards',e.text)
+        self.assertIn('principle', self.browser.title)
 
-        # The page should have a picture of a teletype machine. 
-        m=self.browser.find_element_by_tag_name('img')
-        self.assertIn('teletype.jpg',m.get_attribute('src'))
-    
 
 if __name__=="__main__":
         unittest.main(warnings="ignore")
