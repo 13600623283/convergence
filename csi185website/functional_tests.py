@@ -66,6 +66,9 @@ class NewVisitorTest(unittest.TestCase):
 
         self.assertIn('principle', self.browser.title)
 
+        h=self.browser.find_element_by_tag_name('h1')
+        m=self.browser.find_element_by_tag_name('img')
+
 
 if __name__=="__main__":
         unittest.main(warnings="ignore")
